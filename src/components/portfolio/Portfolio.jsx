@@ -1,10 +1,10 @@
 import "./portfolio.css"
-import img1 from '../../assets/port1.jpg'
-import img2 from '../../assets/port2.jpg'
-import img3 from '../../assets/port3.jpg'
-import img4 from '../../assets/port4.jpg'
-import img5 from '../../assets/port5.jpg'
-import img6 from '../../assets/port6.jpg'
+import img1 from '../../assets/default.jpg'
+import img2 from '../../assets/default.jpg'
+import img3 from '../../assets/default.jpg'
+import img4 from '../../assets/default.jpg'
+import img5 from '../../assets/default.jpg'
+
 
 const Portfolio = () => {
     const portData = [
@@ -19,7 +19,7 @@ const Portfolio = () => {
             id: 2,
             image: img2,
             title: 'sinnot technologies',
-            github: 'https://github.com/olamadeN/Lexkel_portfolio_django',
+            github: 'https://github.com',
             demo: 'https://dribbble.com/Alien_pixels'
         },
         {
@@ -33,7 +33,7 @@ const Portfolio = () => {
             id:4,
             image: img4,
             title: 'Lexkel Portfolio(Django)',
-            github: 'https://github.com',
+            github: 'https://github.com/olamadeN/Lexkel_portfolio_django',
             demo: 'https://lexkel-portfolio.herokuapp.com/'
         },
         {
@@ -43,13 +43,6 @@ const Portfolio = () => {
             github: 'https://github.com',
             demo: 'https://dribbble.com/Alien_pixels'
         },
-        {
-            id:6,
-            image: img6,
-            title: 'portfolio item',
-            github: 'https://github.com',
-            demo: 'https://dribbble.com/Alien_pixels'
-        }
     ]
 
   
