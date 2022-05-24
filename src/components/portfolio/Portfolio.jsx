@@ -19,8 +19,8 @@ const Portfolio = () => {
             id: 2,
             image: img2,
             title: 'sinnot technologies',
-            github: 'https://github.com',
-            demo: 'https://dribbble.com/Alien_pixels'
+            github: 'https://github.com/olamadeN/sinnotTech',
+            demo: 'https://sinnot-tech.herokuapp.com/'
         },
         {
             id:3,
@@ -42,6 +42,13 @@ const Portfolio = () => {
             title: 'Hallels Media (React)',
             github: 'https://github.com',
             demo: 'https://dribbble.com/Alien_pixels'
+        },
+        {
+            id:6,
+            image: img5,
+            title: 'onNext Template Recreation (HTML,CSS,JS)',
+            github: 'https://github.com/olamadeN/creation-of-onNext-template',
+            demo: ''
         },
     ]
 
